@@ -1,0 +1,10 @@
+transformers
+pipeline
+re
+fastAPI
+pydantic
+uvicorn
+fastapi.responses
+torch
+tldextract
+collections
