@@ -9,4 +9,4 @@ gunicorn
 fastapi.responses
 torch
 tldextract
-collections
+
