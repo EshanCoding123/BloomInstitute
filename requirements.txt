@@ -1,6 +1,7 @@
 transformers
 pipeline
 re
+numpy
 fastAPI
 pydantic
 uvicorn
