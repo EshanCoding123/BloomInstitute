@@ -1,6 +1,6 @@
 transformers
 pipeline
-re
+regex
 numpy
 fastAPI
 pydantic
