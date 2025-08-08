@@ -5,6 +5,7 @@ numpy
 fastAPI
 pydantic
 uvicorn
+gunicorn
 fastapi.responses
 torch
 tldextract
