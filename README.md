@@ -15,3 +15,5 @@ CORs middleware is included to allow cross-origin requests, making it suitable f
 
 This is a bit experimental, so it does not work with every case. However, it implements facebook mnli for absurdity and a fake news model trained on 40,000 data points to detect trustworthiness. For version 2, more model training and precision will be implemented. 
 
+Here are some articles and text phrases to test out:
+https://docs.google.com/document/d/1zj6fv4CmbIbP7rbjVSTFu0OzWBEsC7GNRazNKhgygcU/edit?usp=sharing
