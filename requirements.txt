@@ -2,7 +2,7 @@ transformers
 pipeline
 regex
 numpy
-fastAPI
+fastapi
 pydantic
 uvicorn
 gunicorn
