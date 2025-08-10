@@ -1,4 +1,4 @@
-# BloomInstitute
+# Informed Version 1
 Article Trustworthiness Chrome Extension V1
 
 INFORMD project, which provides a text classification API for analyzing the trustworthiness of articles.
