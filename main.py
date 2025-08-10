@@ -47,6 +47,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/analyze")
+def analyze_get():
+    return {"message": "Use POST with article text to analyze."}
 
 
 #input model for article text  and tokenizers
