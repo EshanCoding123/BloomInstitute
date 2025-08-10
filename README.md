@@ -22,8 +22,10 @@ To test this code out (these instructions are for windows users ONLY, terminal s
 2. Install all requirements using "pip install" in the terminal. All requirements are in requirements.txt
 3. Download the repository
 4. In the terminal, head to the folder location using "cd foldername" where foldername is the name of the folder containing all of the repo code
-5. Type uvicorn main:app --reload in your terminal, which should launch the server on http://127.0.0.1:8000/. 
-6. Now keep the terminal open and click to analyze the trustworthiness of any article!
+5. Type uvicorn main:app --reload in your terminal, which should launch the server on http://127.0.0.1:8000/.
+6. On google chrome, go to chrome extension developer dashboard and upload an "unpacked" extension. This will just be the folder that you downloaded from here.
+7. Now, if you refresh, the button should pop up on articles
+8. Now keep the terminal open and click to analyze the trustworthiness of any article!
 
 Here are some articles and text phrases to test out:
 https://docs.google.com/document/d/1zj6fv4CmbIbP7rbjVSTFu0OzWBEsC7GNRazNKhgygcU/edit?usp=sharing
