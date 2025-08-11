@@ -165,7 +165,7 @@ button.addEventListener("click", async () => {
   resultBox.innerHTML = `<div style="display:flex;align-items:center;"><span class="loader" style="margin-right:8px;"></span> <span>Analyzing...</span></div>`;
   const text = getArticleText();
   try {
-     const response = await fetch("http://127.0.0.1:8000/analyze"), { //replace with your endpoint if its different, make sure /analyze is at the end
+    const response = await fetch("http://127.0.0.1:8000/analyze", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -241,3 +241,4 @@ button.addEventListener("click", async () => {
     console.error("Fetch failed:", error);
   }
 });
+
