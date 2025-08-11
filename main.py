@@ -42,7 +42,7 @@ from fastapi.responses import JSONResponse
 app=FastAPI() #sets up app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["chrome-extension://<phflmigfmnnbpjcociglnlgpfalkbdla>"],#for testing, allow all
+    allow_origins=["*"],#for testing, allow all
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
