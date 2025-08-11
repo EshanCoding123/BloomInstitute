@@ -16,7 +16,7 @@ CORs middleware is included to allow cross-origin requests, making it suitable f
 
 This is a bit experimental, so it does not work with every case. However, it implements facebook mnli for absurdity and a fake news model trained on 40,000 data points to detect trustworthiness. For version 2, more model training and precision will be implemented. 
 
-Note about server: I have created a google cloud server to run the backend, but it is giving me "400 Bad Request" errors even though my methods should've fixed the issue. It still works on the fastAPI website, but it just doesn't work with my frontend. Thus, in my instructions I will tell you how to open your own mini-server on your computer to run this application.
+Note about server: I've tested and google cloud works perfectly fine for this too. If it is scaled, I can definitely implement a google cloud server to handle requests.
 
 To test this code out (these instructions are for windows users ONLY, terminal steps may be a little different for Mac users):
 1. Have python 3.12 installed on your computer and in PATH
