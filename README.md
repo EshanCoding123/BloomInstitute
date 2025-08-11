@@ -8,6 +8,7 @@ This code sets up the FastAPI application, defines the input model, and implemen
 CORs middleware is included to allow cross-origin requests, making it suitable for web applications.
 
 - does NOT work with PDFs or other file formats
+- CORs middleware is configured for TESTING ONLY -- it is set to allow requests from anyone, not just this specific chrome extension. If scaled, this can be changed with one line of code
 - uses older version of Python (~3.12)
 - uses a small list of reputable domains, which can be expanded as needed. if not part of this list, then it classifies by AI
 - NLP classification
